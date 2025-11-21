@@ -6,7 +6,7 @@ Welcome to the repository for my personal portfolio website! This site is design
 This repository hosts a **purely static website** consisting of **HTML, CSS, and JavaScript**, built using the **ASP.NET Core Empty template** primarily for local development and build tooling, but deployed directly as static files.
 
 The live website is currently hosted on **GitHub Pages** and can be viewed here:  
-👉 **[[Live Site](#)](https://caisonlewis.github.io/PersonalSite/)**  
+👉 **(https://caisonlewis.github.io/PersonalSite/)**  
 ---
 
 ## 🛠️ Project Structure
