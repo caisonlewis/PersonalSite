@@ -1,0 +1,51 @@
+﻿* -------------------- BOOKMARK LIST STYLING (FOCAL LINKS) -------------------- */
+/* General spacing for the list items */
+.bookmark-group {
+    padding: 20px 0;
+}
+
+.bookmark-group p {
+    margin: 5px 0;
+}
+
+    /* Target the anchor tag inside the paragraph within the bookmark group to turn it into a button */
+    .bookmark-group p a {
+        display: inline-block; /* Allows padding and width control */
+        background-color: #4CAF50; /* Primary Grass Green background */
+        color: white; /* White text for high contrast */
+        padding: 10px 15px;
+        border-radius: 6px;
+        text-decoration: none; /* Remove underline */
+        font-weight: bold;
+        letter-spacing: 0.03em;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Button shadow for depth */
+        transition: background-color 0.2s, transform 0.2s;
+        margin-top: 10px; /* Space below description */
+    }
+
+        .bookmark-group p a:hover {
+            background-color: #8BC34A; /* Lighter/Brighter green on hover */
+            transform: translateY(-1px); /* Subtle lift effect */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+/* Style for the horizontal rule separator */
+hr {
+    border: 0;
+    height: 1px;
+    /* Gradient line in the primary green color */
+    background-image: linear-gradient(to right, rgba(46, 125, 50, 0), rgba(46, 125, 50, 0.75), rgba(46, 125, 50, 0));
+    margin: 30px 0;
+}
+
+/* Simple pill styling for the resource tags */
+.bookmark-tag-display {
+    display: inline-block;
+    background-color: #A5D6A7; /* Light green pill */
+    color: #2E7D32;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 0.8em;
+    margin-top: 10px;
+    font-weight: bold;
+}

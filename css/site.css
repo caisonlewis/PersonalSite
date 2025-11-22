@@ -1,30 +1,124 @@
-﻿/* wwwroot/css/site.css */
+﻿/* --- Global CSS for PersonalSite (Grass Pokémon Theme) --- */
+
+/* -------------------- Color Palette --------------------
+Primary (Header/Accents): #4CAF50 (Medium Grass Green)
+Secondary (Hover/Highlight): #8BC34A (Lighter/Brighter Green)
+Background (Page): #E8F5E9 (Very Pale Mint/Sky)
+Text (Dark): #2E7D32 (Dark Forest Green)
+Text (Light): #FFFFFF (White)
+*/
+
+/* -------------------- BASE STYLES -------------------- */
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Use a clean, modern font that complements the pixel art without clashing */
+    font-family: 'Verdana', 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
+    /* Soft, light background color for a pleasant, airy feel */
+    background-color: #E8F5E9;
+    color: #2E7D32; /* Default text color is a dark forest green */
+    line-height: 1.6;
 }
 
+/* -------------------- LAYOUT & CONTAINERS -------------------- */
+
+/* Ensure main content is centered and readable on large screens */
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white; /* White paper background for readability */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Subtle lift */
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+    border-top: 1px solid #C8E6C9; /* Light separator line */
+    color: #2E7D32;
+    font-size: 0.9em;
+}
+
+/* -------------------- HEADER & NAVIGATION -------------------- */
+
 header {
-    background-color: #333;
+    /* Primary Grass Green color */
+    background-color: #4CAF50;
     color: white;
     padding: 1em 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow for depth */
 }
 
 nav {
     text-align: center;
+    /* Use flexbox for better spacing and alignment */
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Spacing between links */
 }
 
     nav a {
         color: white;
         text-decoration: none;
-        margin: 0 15px;
-        padding: 5px 10px;
+        padding: 8px 15px;
+        /* Rounded corners for a friendlier look */
+        border-radius: 6px;
+        transition: background-color 0.3s ease;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
     }
 
+        /* Brighter Green on hover, like a newly sprouted leaf */
         nav a:hover {
-            background-color: #555;
-            border-radius: 4px;
+            background-color: #8BC34A; /* Lighter green accent */
+            box-shadow: 0 0 8px rgba(255, 255, 255, 0.4); /* Subtle glow */
         }
+
+/* -------------------- TYPOGRAPHY -------------------- */
+
+h1, h2, h3 {
+    color: #2E7D32; /* Darker, authoritative green for headings */
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    border-bottom: 2px solid #C8E6C9; /* Light, subtle underline */
+    padding-bottom: 5px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+/* -------------------- RESPONSIVENESS -------------------- */
+
+@media (max-width: 768px) {
+    main {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+        text-align: center;
+    }
+    /* Stack navigation links vertically on smaller screens */
+    nav {
+        flex-direction: column;
+        gap: 0;
+    }
+
+        nav a {
+            padding: 10px 0;
+            border-bottom: 1px solid #66BB6A; /* Separator between links */
+        }
+    /* Ensure sprites wrap nicely */
+    main p:last-of-type img {
+        display: inline-block;
+        width: 80px; /* Limit size on small screens */
+        height: auto;
+    }
+}
