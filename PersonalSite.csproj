@@ -5,17 +5,5 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Content Include="about.html" />
-    <Content Include="css\site.css" />
-    <Content Include="index.html" />
-    <Content Include="js\site.js" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="images\" />
-    <Folder Include="wwwroot\" />
-  </ItemGroup>
-
+	
 </Project>
