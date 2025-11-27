@@ -1,11 +1,12 @@
-﻿* -------------------- BOOKMARK LIST STYLING (FOCAL LINKS) -------------------- */
+﻿* -------------------- BOOKMARK LIST STYLING-------------------- *
+
 /* General spacing for the list items */
 .bookmark-group {
-    padding: 20px 0;
+    padding: 20px;
 }
 
 .bookmark-group p {
-    margin: 5px 0;
+    margin: 5px;
 }
 
     /* Target the anchor tag inside the paragraph within the bookmark group to turn it into a button */
