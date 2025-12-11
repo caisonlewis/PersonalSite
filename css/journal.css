@@ -1,0 +1,49 @@
+﻿﻿/* Journal Entry Card Styling */
+.journal-entry {
+    width: auto;
+    max-width: min(900px, 100%);
+    border: 3px solid #0ff;
+    padding: 30px;
+    margin-top: 20px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px #0ff;
+    transition: 0.3s;
+    text-align: left;
+    min-height: 200px;
+    overflow: hidden; /* Prevent accidental text overflow */
+}
+
+    /* Hover Effect */
+    .journal-entry:hover {
+        border-color: #4CAF50;
+        box-shadow: 0px 0px 20px #4CAF50;
+        transform: scale(1.02);
+    }
+
+    /* Title Styling */
+    .journal-entry h2 {
+        text-align: center;
+        font-size: 20px;
+        color: #2E7D32;
+        margin-bottom: 10px;
+    }
+
+/* Date Styling */
+.entry-date {
+    font-size: 14px;
+    color: #2E7D32;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Thoughts Styling */
+.entry-text {
+    font-size: 16px;
+    line-height: 150%;
+    color: #2E7D32;
+    word-wrap: break-word;
+    white-space: normal;
+}
