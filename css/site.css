@@ -1,99 +1,91 @@
-﻿/* --- Global CSS for PersonalSite (Grass Pokémon Theme) --- */
-
-/* -------------------- Color Palette --------------------
-Primary (Header/Accents): #4CAF50 (Medium Grass Green)
-Secondary (Hover/Highlight): #8BC34A (Lighter/Brighter Green)
-Background (Page): #E8F5E9 (Very Pale Mint/Sky)
-Text (Dark): #2E7D32 (Dark Forest Green)
-Text (Light): #FFFFFF (White)
-*/
-
-/* -------------------- BASE STYLES -------------------- */
-
-body {
-    /* Use a clean, modern font that complements the pixel art without clashing */
-    font-family: 'Verdana', 'Arial', sans-serif;
+﻿body {
+    font-family: 'Trebuchet MS', 'Verdana', sans-serif;
     margin: 0;
     padding: 0;
-    /* Soft, light background color for a pleasant, airy feel */
-    background-color: #E8F5E9;
-    color: #2E7D32; /* Default text color is a dark forest green */
-    line-height: 1.6;
+    background-color: #87CEEB;
+    color: #000000;
+    line-height: 1.5;
+    background-image: linear-gradient(45deg, rgba(255,255,255,0.1) 25%, transparent 25%),
+                      linear-gradient(-45deg, rgba(255,255,255,0.1) 25%, transparent 25%);
+    background-size: 40px 40px;
 }
 
-/* -------------------- LAYOUT & CONTAINERS -------------------- */
-
-/* Ensure main content is centered and readable on large screens */
 main {
-    max-width: 1000px;
-    margin: 20px auto;
+    max-width: 900px;
+    margin: 30px auto;
     padding: 20px;
-    background-color: white; /* White paper background for readability */
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Subtle lift */
+    background-color: #FFFFFF;
+    border: 4px solid #000000;
+    box-shadow: 6px 6px 0px #0033A0;
 }
 
 footer {
     text-align: center;
     padding: 15px 0;
     margin-top: 40px;
-    border-top: 1px solid #C8E6C9; /* Light separator line */
-    color: #2E7D32;
     font-size: 0.9em;
+    color: #000000;
 }
 
-/* -------------------- HEADER & NAVIGATION -------------------- */
-
 header {
-    /* Primary Grass Green color */
-    background-color: #4CAF50;
-    color: white;
+    background: linear-gradient(to bottom, #0033A0, #001F5C);
+    color: #FFFFFF;
     padding: 1em 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    border-bottom: 4px solid #000000;
 }
 
 nav {
-    text-align: center;
-    /* Use flexbox for better spacing and alignment */
     display: flex;
     justify-content: center;
-    gap: 15px; /* Spacing between links */
+    gap: 12px;
 }
 
-    nav a {
-        color: white;
-        text-decoration: none;
-        padding: 8px 15px;
-        /* Rounded corners for a friendlier look */
-        border-radius: 6px;
-        transition: background-color 0.3s ease;
-        font-weight: bold;
-        text-transform: uppercase;
-        letter-spacing: 0.05em;
-    }
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 18px;
+    background-color: #FF3C28;
+    border: 3px solid #000000;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 3px 3px 0px #000000;
+    transition: all 0.1s ease;
+}
 
-        /* Brighter Green on hover, like a newly sprouted leaf */
-        nav a:hover {
-            background-color: #8BC34A; /* Lighter green accent */
-            box-shadow: 0 0 8px rgba(255, 255, 255, 0.4); /* Subtle glow */
-        }
+nav a:active {
+    transform: translate(3px, 3px);
+    box-shadow: none;
+}
 
-/* -------------------- TYPOGRAPHY -------------------- */
+nav a:hover {
+    background-color: #FFD700;
+    color: #000000;
+}
 
 h1, h2, h3 {
-    color: #2E7D32; /* Darker, authoritative green for headings */
-    font-weight: 700;
+    color: #0033A0;
     margin-top: 0;
     margin-bottom: 0.5em;
-    border-bottom: 2px solid #C8E6C9; /* Light, subtle underline */
+    border-bottom: 4px solid #FF3C28;
     padding-bottom: 5px;
 }
 
 h1 {
     font-size: 2.5em;
+    text-shadow: 2px 2px #FFD700;
 }
 
-/* -------------------- RESPONSIVENESS -------------------- */
+img {
+    image-rendering: pixelated;
+}
+
+section {
+    border: 3px solid #000;
+    padding: 15px;
+    margin-bottom: 20px;
+    background: #FFF;
+    box-shadow: 4px 4px 0px #FF3C28;
+}
 
 @media (max-width: 768px) {
     main {
@@ -105,20 +97,14 @@ h1 {
         font-size: 1.8em;
         text-align: center;
     }
-    /* Stack navigation links vertically on smaller screens */
+
     nav {
         flex-direction: column;
         gap: 0;
     }
 
-        nav a {
-            padding: 10px 0;
-            border-bottom: 1px solid #66BB6A; /* Separator between links */
-        }
-    /* Ensure sprites wrap nicely */
-    main p:last-of-type img {
-        display: inline-block;
-        width: 80px; /* Limit size on small screens */
-        height: auto;
+    nav a {
+        border-bottom: 2px solid #000;
+        box-shadow: none;
     }
 }
