@@ -1,4 +1,4 @@
-﻿﻿class JournalEntry {
+﻿﻿﻿class JournalEntry {
     constructor(title, date, thoughts) {
         this.title = title;
         this.date = date;
