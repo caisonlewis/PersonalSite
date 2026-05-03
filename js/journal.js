@@ -1,8 +1,8 @@
-﻿﻿﻿class JournalEntry {
+﻿﻿class JournalEntry {
     constructor(title, date, thoughts) {
         this.title = title;
         this.date = date;
-        this.thoughts = thoughts;
+        this.thoughts = thoughts.replace(/\n/g, "<br>"); // Replace newlines with <br> for HTML display
     }
 
     createEntryElement() {
@@ -21,7 +21,7 @@
 
         let desc = document.createElement("p");
         desc.classList.add("entry-text");
-        desc.textContent = this.thoughts;
+        desc.innerHTML = this.thoughts;
 
         // Append elements to card container
         card.appendChild(title);
@@ -62,10 +62,19 @@ const july_13_25 = new JournalEntry("Coming Soon", "7/13/2025", "well, it's been
 
 const oct_23_25 = new JournalEntry("It's been a while AGAIN..", "10/23/2025","Like normal, I'm posting for the first time in forever. This time it's been like 3 months! Time is flying by and not a lot has changed. Still pretty much doing the same thing I was back in July as far as work and home life. My Black 2 professor Oaks challenge is a bust. Put a lot of time into getting the first section done and my retroid pocket crapped out on me and I lost the save. Needless to say I am not redoing the hours of grinding I lost. However, I did start a new POC for Pokémon Ruby on cartridge and I've made it decently far into the first section since August. Doing a POC for ruby has made me realize just how much of an undertaking Black 2 would have been. Ruby is miles easier and more enjoyable. I've had it on pause for a bit but plan to get back to it soon. Got legends ZA on release last week. Plan on finish up my playthrough of it and giving my thoughts on my completed games page at some point soon. I would love to get back into putting more into this site or even restructuring my horrible code for it so it is somewhat presentable. We will see.. Until next time! ✌️ ");
 
-const may_2_26 = new JournalEntry("Best Video Games of All Time.", "05/02/2026", "1. Pokemon Emerald\n 2. TES IV: Oblivion\n 3. Borderlands 2\n 4. Grand Theft Auto IV\n 5. Minecraft\n 6. Stardew Valley\n 7. Fallout 3\n Keep in mind these are in no particular order and there are more I will add to the list, These are just games that I could think of at the moment.");
+const may_2_26 = new JournalEntry(
+    "Best Video Games of All Time.", 
+    "05/02/2026", 
+    "1. Pokemon Emerald<br>2. TES IV: Oblivion<br>3. Borderlands 2<br>4. Grand Theft Auto IV<br>5. Minecraft<br>6. Stardew Valley<br>7. Fallout 3<br><br>Keep in mind these are in no particular order and I am sure to add more as they come to mind"
+);
+
+
+
 
 // Array of entries
-const entries = [may_2_2026,oct_23_25,july_13_25,june_13_25, may_31_25, mar_18_25, feb_19_25, feb_13_25];
+const entries = [may_2_26,oct_23_25,july_13_25,june_13_25, may_31_25, mar_18_25, feb_19_25, feb_13_25];
+
+
 
 // Display entries on the page
 document.addEventListener("DOMContentLoaded", function () {
