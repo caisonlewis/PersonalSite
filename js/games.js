@@ -96,6 +96,10 @@ const dqXITrueEnd = new Game("DRAGON QUEST XI S: Echoes of an Elusive Age - ACT 
     "HOLY SHIT. So this is a follow up to my previous post where I thought I beat the game after finishing act two and act three was just a 'post game' with some extra story bits. I liked the game a lot so I figured I would do the 'extra post game stuff' for the hell of it. My god. The best part of the story is act 3. I am completely mind blown. I won't spoil anything for anyone who hasn't finished the game but lets put it like this - this was my first dragon quest game, I have played a bit of VIII and read a bit online about the other games in the series and decided DQ XI would be a good starting point in the series. After what I've read and learned about DQ, I was really interested in getting into the Erdrick trilogy (the first the games). Because of this, I decided to buy the Dragon Quest III HD-2D remake to play after finishing DQXI. (DQIII is the first game chronologically in the trilogy). My god what a good play on my part. I find out after act three that DQ XI relates to the Erdrick trilogy (III specifically). Mind Blown. I will say no more for those who fear spoilers because staying spoiler free while playing through this game was the best decision I could possibly make. If you take anything away from this.. THE GAME ISNT FINISHED.. PLAY ACT III. Stellar game."
 )
 
+const borderlands4 = new Game("Borderlands 4", "PlayStation 5", "57h 52m", "img/images/borderlands4.png",
+    "I love borderlands, been hooked since the first one back on xbox 360. Played the hell out of BL1 and ESPECIALLY BL2 in middle and high school with my friends. I even found fun in Borderlands 3 despite the bad writing. Needless to say, I was excited for this one. Overall, it was pretty damn good. The gun play and gun variety is the best the series has to offer, movement feels good, the new Vault Hunters are cool. With that being said, I will say I am not a fan of the open world approach personally.. I liked the old 'area-to-area' style of gameplay from the older games. The story was good though, the enemies are fun, the bosses are fun. The only other gripe I had was the over the top chaos. Like sometimes there is just so much going on between the ridiculous guns firing projectiles and just random explosions from enemies. I liked it better than BL3, still doesn't match BL2 for me. Hard bar to beat tbh though. Solid 8/10 game. Worth the $70 I paid for it near launch. Still gonna go back and replay it with some different vault hunters. I'll get the DLC eventually and review that after I finish it. The new C4SH character looks cool as hell. Definitely worth playing."
+)
+
 // TODO: Add No Mans Sky
 
 // TODO: Add Monster Hunter Rise
@@ -119,7 +123,7 @@ const dqXITrueEnd = new Game("DRAGON QUEST XI S: Echoes of an Elusive Age - ACT 
 
 
 // Array of games
-const games = [dqXITrueEnd, dqXI, leafgreen, mhWilds,mhWorld, rdr2, PLA, xc3, gris];
+const games = [borderlands4, dqXITrueEnd, dqXI, leafgreen, mhWilds, mhWorld, rdr2, PLA, xc3, gris];
 
 // Display games on the page
 document.addEventListener("DOMContentLoaded", function () {
