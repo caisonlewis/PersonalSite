@@ -37,6 +37,16 @@
         let playtime = document.createElement("playtime");
         playtime.textContent = this.playtime; //set heading inside playtime element
 
+        if (this.title === "Astro Bot") {
+            let trophyIcon = document.createElement("img");
+            trophyIcon.src = "img/platinumtrophy.png";
+            trophyIcon.alt = "Platinum Trophy";
+            trophyIcon.style.width = "30px";
+            trophyIcon.style.height = "auto";
+            trophyIcon.style.verticalAlign = "middle";
+            trophyIcon.style.marginLeft = "8px";
+            playtime.appendChild(trophyIcon);
+        }
 
         // Assign a mapped class if it exists, otherwise default to "other"
         let platformClass = Game.platformClasses[this.platform] || "other";
@@ -100,6 +110,9 @@ const borderlands4 = new Game("Borderlands 4", "PlayStation 5", "57h 52m", "img/
     "I love borderlands, been hooked since the first one back on xbox 360. Played the hell out of BL1 and ESPECIALLY BL2 in middle and high school with my friends. I even found fun in Borderlands 3 despite the bad writing. Needless to say, I was excited for this one. Overall, it was pretty damn good. The gun play and gun variety is the best the series has to offer, movement feels good, the new Vault Hunters are cool. With that being said, I will say I am not a fan of the open world approach personally.. I liked the old 'area-to-area' style of gameplay from the older games. The story was good though, the enemies are fun, the bosses are fun. The only other gripe I had was the over the top chaos. Like sometimes there is just so much going on between the ridiculous guns firing projectiles and just random explosions from enemies. I liked it better than BL3, still doesn't match BL2 for me. Hard bar to beat tbh though. Solid 8/10 game. Worth the $70 I paid for it near launch. Still gonna go back and replay it with some different vault hunters. I'll get the DLC eventually and review that after I finish it. The new C4SH character looks cool as hell. Definitely worth playing."
 )
 
+const astrobot= new Game("Astro Bot", "PlayStation 5", "38h 18m", "img/images/astroBot.png",
+    "This game is a masterpiece. First game I've got the platinum trophy for in years. I don't even know how to describe it. It is a 3D platformer where you control a little robot and you have to navigate through different levels and worlds to save your other robot homies, some of which are themed around various playstation exclusive characters. The level design is absolutely brilliant, the music is fantastic, the controls are tight and responsive especially with the PS5's haptic feedback and adaptive triggers, and the overall experience is just pure joy. It is one of those games that makes you feel like a kid again, just having fun and exploring. I can't recommend this game enough, it's a must play for anyone who loves platformers or just wants to have a great time gaming."
+)
 // TODO: Add No Mans Sky
 
 // TODO: Add Monster Hunter Rise
@@ -123,7 +136,7 @@ const borderlands4 = new Game("Borderlands 4", "PlayStation 5", "57h 52m", "img/
 
 
 // Array of games
-const games = [borderlands4, dqXITrueEnd, dqXI, leafgreen, mhWilds, mhWorld, rdr2, PLA, xc3, gris];
+const games = [astrobot,borderlands4, dqXITrueEnd, dqXI, leafgreen, mhWilds, mhWorld, rdr2, PLA, xc3, gris];
 
 // Display games on the page
 document.addEventListener("DOMContentLoaded", function () {
