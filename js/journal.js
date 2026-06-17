@@ -64,8 +64,8 @@ const oct_23_25 = new JournalEntry("It's been a while AGAIN..", "10/23/2025","Li
 
 const may_2_26 = new JournalEntry(
     "Best Video Games of All Time.", 
-    "05/02/2026", 
-    "1. Pokemon Emerald<br>2. TES IV: Oblivion<br>3. Borderlands 2<br>4. Grand Theft Auto IV<br>5. Minecraft<br>6. Stardew Valley<br>7. Fallout 3<br><br>Keep in mind these are in no particular order and I am sure to add more as they come to mind"
+    "05/02/2026 EDIT: 06/17/2026", 
+    "1. Pokemon Emerald<br>2. TES IV: Oblivion<br>3. Borderlands 2<br>4. Grand Theft Auto IV<br>5. Minecraft<br>6. Stardew Valley<br>7. Fallout 3<br>8. Astro Bot <br> 9. Red Dead Redeption II <br> 10. Xenoblade Chronicles 3<br> <br>Keep in mind these are in no particular order and I am sure to add more as they come to mind"
 );
 
 
