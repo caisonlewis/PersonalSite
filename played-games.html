@@ -11,16 +11,43 @@
             min-height: 100%;
             margin: 0;
             padding: 0;
+            text-align: center;
+        }
+        header h1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin: 0.5rem 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-bottom: 0.5rem;
         }
         main {
             max-width: 1200px;
             margin: 0 auto;
             padding: 1rem;
+            text-align: center;
         }
         main iframe {
             width: 100%;
             height: 6050px;
             border: 1px solid #444;
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+        }
+        header img {
+            display: inline-block;
+        }
+        footer {
+            text-align: center;
+            margin-top: 1rem;
         }
     </style>
 </head>
@@ -45,12 +72,11 @@
 
     <main>
         <h2>Played Games</h2>
-        <p>Welcome to my played games page.</p>
-        <p>This is a spreadsheet comprised of all my played games from my Exophase Profile with at least 2 hours played:</p>
-        <p>I plan to update this list regularly as I play more games or play time changes for existing entries.</p>
-        <ul>
-            <li><a href="https://www.exophase.com/user/papablizz/">Exophase Profile</a></li>
-        </ul>
+        <p>This is a spreadsheet comprised of all my played games from my Exophase Profile with at least 2 hours played</p>
+        <p>I plan to update this list regularly as I play more games or play time changes for existing entries. <br>Below is a widget that shows what I've been playing recently in real time </br></p>
+        <p>
+            <a href="https://www.exophase.com/user/PapaBlizz/"><img src="https://card.exophase.com/2/0/289763.png?1781908924" alt="Exophase card" style="width:500px; height:auto;"></a>
+        </p>
 
         <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSQs_aRMPpvKkPSGQwD1Ug8czkYX2Wfth7Abw23t_IP9CA-Zr-TIEwKB1TCsXphR8mVc4WTb27oKLBr/pubhtml?widget=true&amp;headers=false"></iframe>
 
