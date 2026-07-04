@@ -113,6 +113,9 @@ const borderlands4 = new Game("Borderlands 4", "PlayStation 5", "57h 52m", "img/
 const astrobot= new Game("Astro Bot", "PlayStation 5", "38h 18m", "img/images/astrobot.png",
     "This game is a masterpiece. First game I've got the platinum trophy for in years. I don't even know how to describe it. It is a 3D platformer where you control a little robot and you have to navigate through different levels and worlds to save your other robot homies, some of which are themed around various playstation exclusive characters. The level design is absolutely brilliant, the music is fantastic, the controls are tight and responsive especially with the PS5's haptic feedback and adaptive triggers, and the overall experience is just pure joy. It is one of those games that makes you feel like a kid again, just having fun and exploring. I can't recommend this game enough, it's a must play for anyone who loves platformers or just wants to have a great time gaming."
 )
+
+const massEffect = new Game("Mass Effect", "PlayStation 5", "10h 45m", "img/images/massEffect.png", "Mass Effect was one of those games I missed back in 2008 when Xbox 360 was my entire life. I've grown older since and found myself playing and appreciating more story driven single player games. I grabbed the Mass Effect Legendary Collection on the PS store for pretty cheap and decided it was time for me to play these critically acclaimed games. Believe it or not, my first Mass Effect game was the most recent Andromeda. I'm pretty sure I bought it for just a couple bucks on Xbox One years ago and really enjoyed what I played of it but I got to a point where I was soft locked from progressing because of the games known bugs and issues. Nonetheless, I was excited to play the original Mass Effect trilogy. As soon as I started the first game in the series, I was hooked. All of the characters are super interesting, combat is decent for a cover shooter from 2007, the dialogue choices and decisions affecting the story is so cool. I beat the game before I knew it and couldn't wait for more. Great game, not super long but one every sci-fi fan NEEDS to play. I already started ME2 and plan on continuing through the series. "
+)
 // TODO: Add No Mans Sky
 
 // TODO: Add Monster Hunter Rise
@@ -136,7 +139,7 @@ const astrobot= new Game("Astro Bot", "PlayStation 5", "38h 18m", "img/images/as
 
 
 // Array of games
-const games = [astrobot,borderlands4, dqXITrueEnd, dqXI, leafgreen, mhWilds, mhWorld, rdr2, PLA, xc3, gris];
+const games = [massEffect, astrobot,borderlands4, dqXITrueEnd, dqXI, leafgreen, mhWilds, mhWorld, rdr2, PLA, xc3, gris];
 
 // Display games on the page
 document.addEventListener("DOMContentLoaded", function () {
