@@ -75,7 +75,7 @@ const xc3 = new Game("Xenoblade Chronicles 3", "Nintendo Switch","70h" , "img/im
 
 const gris = new Game("Gris", "PlayStation 5", "3h 46m", "img/images/grisArt.jpg",
     "Very fun and beautiful little game, only takes about 5-6 hours to complete, it is like controlling a character in a painting, stunning visuals, beautiful sound and music, the puzzles are fun. The story is deeply artistic and emotionally heavy handed. I really liked this game, especially playing it on PS5 with the enhanced controller vibration and dualsense triggers (or whatever they're called). The ps5 controller alone makes the game even more immersive and mesmerizing. Just play it. Definitely worth 5-6 hours of your time."
-)
+);
 
 const PLA = new Game("Pokémon: Legends Arceus", "Nintendo Switch", "64h 52m", "img/images/plaEnd.jpg",
     "This was my second playthrough. That says it all. I only replay games that are fantastic and fun no matter what and that's what legends arceus is. Really cool direction for the Pokémon series as a whole, even if it isn't considered a 'Main-Line' Pokémon game. Loved it, wanna do some of the end game stuff, caught some shinies this playthrough. One of my favorite newer Pokémon games."
@@ -84,7 +84,7 @@ const PLA = new Game("Pokémon: Legends Arceus", "Nintendo Switch", "64h 52m", "
 
 const rdr2 = new Game("Red Dead Redemption 2", "Xbox One", "190h 40m", "img/images/rdr2.jpg",
     "First of all, this game is absolutely stunning visually. The environmental details are super realistic, everything down to your gun getting dirty to bullet holes and blood trails being accurate. RDR2 is a visual masterpiece. On top of the gorgeous realism the game gives you, this is one of the best stories I've ever experienced. I mean EVER (including books, movies, etc.). The characters are fantastic, the missions are brutal. The attachment I had for Arthur by the end of the game is unmatched. 10/10 master class in writing and game design. Wish I could forget it all and experience it for the first time all over again."
-)
+);
 
 const mhWorld = new Game("Monster Hunter World", "PlayStation 5", "88h 08m", "img/images/xenojiiva.jpg",
     " I fell in love with Monster Hunter after vibing with Rise on PC and eventually Switch. I couldn't understand, despite it being the newer game in the series, why people collectively liked it more than Rise. I love Rise, the mechanics were really fun for me and the armor and weapon crafting loop that makes monster hunter, monster hunter resonated with me because of Rise. With that being said, I enjoyed World more. I remember trying it on Xbox Game Pass a couple of years ago before I played Rise and couldn't get into it. However, because Rise introduced me to what MH actually is, I really enjoyed World this time around. The monsters are cool, the armor and weapons are cool, and I found it to be more challenging and engaging than Rise. Just finished base game, gonna move on to the Iceborne expansion. I'll probably get side tracked before I finish it though considering i'm getting Monster Hunter Wilds day 1 and it will most likely consume my free time for the foreseeable future. MH world tho.. 9/10. Loved it. Only reason it doesn't get 10/10 for me is the unskippable cutscenes and Ancient Forest being so damn annoying to navigate. "
@@ -96,26 +96,26 @@ const mhWilds = new Game("Monster Hunter Wilds", "PlayStation 5", "66h 12m", "im
 
 const leafgreen = new Game("Pokemon Leaf Green", "Gameboy Advance", "27h 55m", "img/images/leafgreen team.png",
 "So I started this as a kid and for some reason never finished it. I actually went the longest time without fully finishing a Kanto game despite my love for the Pokemon series. I just finally finished the elite 4 for leafgreen on my RG25XX Plus and I really loved it. I spent quite a while training up my dragonite and the elite 4 was actually fairly challenging for me because of the levels of my team. Great game, very nostalgic, glad I finished it."
-)
+);
 
 const dqXI = new Game("DRAGON QUEST XI S: Echoes of an Elusive Age", "PlayStation 5", "57h 43m" , "img/images/DQXIS.jpg",
 "It's been a while since I actually sat down and finished a long JRPG within a relatively short period of time (about a month). The last few 50+ hour RPGs I started, they took me several months to even sometimes over a year ('ahem'... Xenoblade 3') but this one just hooked me pretty quick. I got really involved with the story and attached to the characters. Next thing you know 55+ hours is gone and I beat the main story. Beautiful game. It is visually gorgeous and has a tear jerking epic story to match. The turned based combat is fun. The spells and abilities are diverse and the character building is fluid and customizable. I love all the design work (Cheers to the late Akria Toriyama), the monster designs are really cool and interesting as well as their idol and attack animations. I'm not really a 100% completion type guy but I am going to at least finish all the Tickington mini stories and fight this 'secret super boss' I keep hearing about. Loved it 10/10. Suprised how quickly I blasted through this one. This is not a 'quick' game by any means.."
-)
+);
 
 const dqXITrueEnd = new Game("DRAGON QUEST XI S: Echoes of an Elusive Age - ACT III", "PlayStation 5", "80h 05m", "img/images/yggdragon.jpg",
     "HOLY SHIT. So this is a follow up to my previous post where I thought I beat the game after finishing act two and act three was just a 'post game' with some extra story bits. I liked the game a lot so I figured I would do the 'extra post game stuff' for the hell of it. My god. The best part of the story is act 3. I am completely mind blown. I won't spoil anything for anyone who hasn't finished the game but lets put it like this - this was my first dragon quest game, I have played a bit of VIII and read a bit online about the other games in the series and decided DQ XI would be a good starting point in the series. After what I've read and learned about DQ, I was really interested in getting into the Erdrick trilogy (the first the games). Because of this, I decided to buy the Dragon Quest III HD-2D remake to play after finishing DQXI. (DQIII is the first game chronologically in the trilogy). My god what a good play on my part. I find out after act three that DQ XI relates to the Erdrick trilogy (III specifically). Mind Blown. I will say no more for those who fear spoilers because staying spoiler free while playing through this game was the best decision I could possibly make. If you take anything away from this.. THE GAME ISNT FINISHED.. PLAY ACT III. Stellar game."
-)
+);
 
 const borderlands4 = new Game("Borderlands 4", "PlayStation 5", "57h 52m", "img/images/borderlands4.png",
     "I love borderlands, been hooked since the first one back on xbox 360. Played the hell out of BL1 and ESPECIALLY BL2 in middle and high school with my friends. I even found fun in Borderlands 3 despite the bad writing. Needless to say, I was excited for this one. Overall, it was pretty damn good. The gun play and gun variety is the best the series has to offer, movement feels good, the new Vault Hunters are cool. With that being said, I will say I am not a fan of the open world approach personally.. I liked the old 'area-to-area' style of gameplay from the older games. The story was good though, the enemies are fun, the bosses are fun. The only other gripe I had was the over the top chaos. Like sometimes there is just so much going on between the ridiculous guns firing projectiles and just random explosions from enemies. I liked it better than BL3, still doesn't match BL2 for me. Hard bar to beat tbh though. Solid 8/10 game. Worth the $70 I paid for it near launch. Still gonna go back and replay it with some different vault hunters. I'll get the DLC eventually and review that after I finish it. The new C4SH character looks cool as hell. Definitely worth playing."
-)
+);
 
 const astrobot= new Game("Astro Bot", "PlayStation 5", "38h 18m", "img/images/astrobot.png",
     "This game is a masterpiece. First game I've got the platinum trophy for in years. I don't even know how to describe it. It is a 3D platformer where you control a little robot and you have to navigate through different levels and worlds to save your other robot homies, some of which are themed around various playstation exclusive characters. The level design is absolutely brilliant, the music is fantastic, the controls are tight and responsive especially with the PS5's haptic feedback and adaptive triggers, and the overall experience is just pure joy. It is one of those games that makes you feel like a kid again, just having fun and exploring. I can't recommend this game enough, it's a must play for anyone who loves platformers or just wants to have a great time gaming."
-)
+);
 
 const massEffect = new Game("Mass Effect", "PlayStation 5", "10h 45m", "img/images/massEffect.png", "Mass Effect was one of those games I missed back in 2008 when Xbox 360 was my entire life. I've grown older since and found myself playing and appreciating more story driven single player games. I grabbed the Mass Effect Legendary Collection on the PS store for pretty cheap and decided it was time for me to play these critically acclaimed games. Believe it or not, my first Mass Effect game was the most recent Andromeda. I'm pretty sure I bought it for just a couple bucks on Xbox One years ago and really enjoyed what I played of it but I got to a point where I was soft locked from progressing because of the games known bugs and issues. Nonetheless, I was excited to play the original Mass Effect trilogy. As soon as I started the first game in the series, I was hooked. All of the characters are super interesting, combat is decent for a cover shooter from 2007, the dialogue choices and decisions affecting the story is so cool. I beat the game before I knew it and couldn't wait for more. Great game, not super long but one every sci-fi fan NEEDS to play. I already started ME2 and plan on continuing through the series. "
-)
+);
 // TODO: Add No Mans Sky
 
 // TODO: Add Monster Hunter Rise
