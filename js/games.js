@@ -120,6 +120,9 @@ const massEffect = new Game("Mass Effect", "PlayStation 4", "10h 45m", "img/imag
 
 const finalFantasyX = new Game("Final Fantasy X HD Remaster", "PlayStation 4", "71h 20m", "img/images/ffx.jpg", "I finished my first Final Fantasy game and my god what a game to start with. Despite being kind of frustrated by some of the trial chamber puzzles, messing up my sphere grid for certain characters, and the massive difficulty spike towards the later parts of the game, this story was some of the best fiction I've ever consumed. Literally to the point where I am still thinking about it days later and I want to play the 70+ hours I put into this all over again. This is a story of beauty, a story of growing up and self discovery, a story of suffering and hardship, a story of friendship, a story of true love. This game is a contemplative of life itself. Life is confusing and hard; full of suffering and loss, full of sacrifice and hope. Despite all this, life is beauty, it is a dance, a story. This game is a metaphor for all of this, its poetic. Brought me to the verge of tears as some points. What I'm saying here may seem like I am not really explaining the game at all but if you play it, what I am saying will make sense. This one of the best games I have played in a long time and has some of the best writing in a video game ever. Play it."
 );
+
+const order1886 = new Game("The Order: 1886", "PlayStation 4", "7h 36m", "img/images/order1886.png", "Short but sweet. I picked this up for $10 and enjoyed the campaign quite a bit. It's visually beautiful, the story is interesting and has some great plot twists. The characters are interesting a feel real. The gun fights feel weighty and fun, solid 3rd person shooter. I wouldn't pay a $50 to $60 price tag just because of how short of an experience it is but on sale, definitely worth playing. I may end up going back and replaying some missions to get the platinum trophy. good 8/10 for me considering what I paid for it."
+    );
     // TODO: Add No Mans Sky
 
 // TODO: Add Monster Hunter Rise
@@ -143,7 +146,7 @@ const finalFantasyX = new Game("Final Fantasy X HD Remaster", "PlayStation 4", "
 
 
 // Array of games
-const games = [finalFantasyX, massEffect, astrobot,borderlands4, dqXITrueEnd, dqXI, leafgreen, mhWilds, mhWorld, rdr2, PLA, xc3, gris];
+const games = [order1886,finalFantasyX, massEffect, astrobot,borderlands4, dqXITrueEnd, dqXI, leafgreen, mhWilds, mhWorld, rdr2, PLA, xc3, gris];
 
 // Display games on the page
 document.addEventListener("DOMContentLoaded", function () {
